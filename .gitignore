@@ -1,0 +1,6 @@
+*.swp
+*.swo
+.bundle
+Gemfile.lock
+*.pb.rb
+
