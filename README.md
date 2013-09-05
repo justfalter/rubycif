@@ -11,7 +11,7 @@ Steps for getting things going:
 
 1. bundle install
 2. bundle exec rake 
-3. bundle exec rackup
+3. bundle exec rackup -I lib
 
 You should now have an HTTP service listening on tcp port 9292. Configure
 your CIF client to communicate with http://yourhost:9292/api, and query away.
